@@ -1,5 +1,4 @@
 package constants;
-
 public class Constants {
     /**
      * English alphabet, numbers and some symbols.
