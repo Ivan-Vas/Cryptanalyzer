@@ -6,19 +6,23 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- *Class that performs decryption with a known key
+ * Class that performs decryption with a known key
  */
 public class Decryption {
     private int key;
+
     /**
      * The constructor accepts the decryption key
+     *
      * @param key key for decryption
      */
     public Decryption(int key) {
         this.key = -1 * key;
     }
+
     /**
      * The method that performs decryption with a known key
+     *
      * @param textForDecryption list Charter by text for decrypted
      * @return decrypted text
      */

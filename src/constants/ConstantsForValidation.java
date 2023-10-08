@@ -17,6 +17,7 @@ public class ConstantsForValidation {
      * The path to the project directory where new files are saved
      */
     public static final String DIRECTORY_PATH_TO_FILES = "src\\texts\\";
+
     private ConstantsForValidation() {
     }
 }

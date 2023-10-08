@@ -16,6 +16,7 @@ import static constants.MenuConstants.*;
 
 public class Menu {
     InputValidator inputValidator = new InputValidator();
+
     public void openMenu() throws IOException {
         Scanner console = new Scanner(System.in);
         int choice;
@@ -84,7 +85,7 @@ public class Menu {
 
         System.out.print(ENTER_DECRYPTED_FILE_NAME);
         WriteСonvertedText writeСonvertedText = new WriteСonvertedText();
-        writeСonvertedText.writeConvertedTextToFile(decryptedText,console.nextLine());
+        writeСonvertedText.writeConvertedTextToFile(decryptedText, console.nextLine());
     }
 
     private void decryptionByStatisticProcess() throws IOException {
@@ -106,7 +107,7 @@ public class Menu {
 
         System.out.print(ENTER_DECRYPTED_FILE_NAME);
         WriteСonvertedText writeСonvertedText = new WriteСonvertedText();
-        writeСonvertedText.writeConvertedTextToFile(decryptedText,console.nextLine());
+        writeСonvertedText.writeConvertedTextToFile(decryptedText, console.nextLine());
     }
 
     private void decryptionByKeyProcess() throws IOException {
@@ -127,7 +128,7 @@ public class Menu {
 
         System.out.print(ENTER_DECRYPTED_FILE_NAME);
         WriteСonvertedText writeСonvertedText = new WriteСonvertedText();
-        writeСonvertedText.writeConvertedTextToFile(decryptedText,console.nextLine());
+        writeСonvertedText.writeConvertedTextToFile(decryptedText, console.nextLine());
     }
 
     private void encryptionProcess() throws IOException {

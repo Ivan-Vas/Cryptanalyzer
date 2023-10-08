@@ -2,6 +2,7 @@ package workingWithText;
 
 import exception.SystemFileException;
 import validation.FileValidator;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -17,8 +18,9 @@ public class WriteСonvertedText {
 
     /**
      * The method that writes text to a file
+     *
      * @param convertedText text for writes
-     * @param fileName file name where to write the converted text
+     * @param fileName      file name where to write the converted text
      * @throws IOException from {@link SystemFileException} and {@link Files}
      */
     public void writeConvertedTextToFile(String convertedText, String fileName) throws IOException {
@@ -29,7 +31,7 @@ public class WriteСonvertedText {
                 Files.createFile(Path.of(DIRECTORY_PATH_TO_FILES + fileName));
             }
             Path path = Path.of(DIRECTORY_PATH_TO_FILES + fileName);
-            Files.writeString(path,convertedText);
+            Files.writeString(path, convertedText);
             System.out.println(SUCCESSFUL_SAVE);
         }
     }

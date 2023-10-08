@@ -2,7 +2,7 @@ package constants;
 
 public class Constants {
     /**
-     * English alphabet, numbers and some symbols
+     * English alphabet, numbers and some symbols.
      */
     public static final Character[] ENG_ALPHABET =
             {'a', 'b', 'c', 'd', 'e', 'f',

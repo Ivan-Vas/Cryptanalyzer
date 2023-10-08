@@ -46,6 +46,7 @@ public class DecryptionByStatisticalAnalysis {
 
         return new Decryption(key).decryption(textForDecryption.convertTextToCharacterList());
     }
+
     /**
      * Метод, который считает в строке частоту ее символов на 1000 элементов:
      *
@@ -68,6 +69,7 @@ public class DecryptionByStatisticalAnalysis {
         }
         return dictionaryByText;
     }
+
     /**
      * Данный метод преобразует входящий текст String в список Character:
      *
@@ -81,6 +83,7 @@ public class DecryptionByStatisticalAnalysis {
         }
         return list;
     }
+
     /**
      * Метод, который количество вхождений самого частого символа в словаре:
      *
@@ -97,6 +100,7 @@ public class DecryptionByStatisticalAnalysis {
         }
         return maxFrequency;
     }
+
     /**
      * Метод, который возвращает самый частый символ в словаре:
      * Если в словаре найдено несколько символов (key), имеющих одинаковую частоту (values), равную max,
@@ -115,6 +119,7 @@ public class DecryptionByStatisticalAnalysis {
         }
         return frequencyChars.get(0);
     }
+
     /**
      * Метод, который определяет ключ, рассчитывая расстояние между самыми популярными
      * символами в репрезентативном тексте и зашифрованном тексте:

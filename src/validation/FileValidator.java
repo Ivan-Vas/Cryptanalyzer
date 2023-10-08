@@ -15,6 +15,7 @@ import static constants.ConstantsForValidation.DIRECTORY_PATH_TO_FILES;
 public class FileValidator {
     /**
      * The method that checks whether a given file is a system file
+     *
      * @param filePath the path to the file to check
      * @return boolean value: true if file is system file and false if is-not
      */
@@ -24,6 +25,7 @@ public class FileValidator {
 
     /**
      * The method that checks whether a file exists with a given path
+     *
      * @param fileName the name of the file
      * @return boolean value: true if the file exists at the specified path and false if not
      */
@@ -34,6 +36,7 @@ public class FileValidator {
     /**
      * A method that checks if a file with the specified path exists,
      * if true, returns the file name, if false, throws an exception
+     *
      * @param fileName the name of the file
      * @return the name of the file if file exists at the specified path or exception if is not.
      * @throws IOException from {@link IncorrectFileNameException}

@@ -17,7 +17,8 @@ public class SourceText {
 
     /**
      * Constructor of the source text object
-     * @param fileName the name of the file
+     *
+     * @param fileName      the name of the file
      * @param fileValidator instance of the class {@link FileValidator}
      */
     public SourceText(String fileName, FileValidator fileValidator) {
@@ -27,6 +28,7 @@ public class SourceText {
 
     /**
      * The method that converts text to a string
+     *
      * @return text as String
      * @throws IOException from {@link FileValidator}
      */
@@ -36,6 +38,7 @@ public class SourceText {
 
     /**
      * The method that converts text from a string to a list of Characters
+     *
      * @return list of Characters
      * @throws IOException from {@link FileValidator}
      */

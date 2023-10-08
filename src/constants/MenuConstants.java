@@ -28,6 +28,7 @@ public class MenuConstants {
     public static final String ENTER_EXAMPLE_FILE_NAME = "Введите путь к репрезентативному файлу -> ";
     public static final String EXIT_PROGRAM = "Программа завершена!";
     public static final String SUCCESSFUL_SAVE = "Файл успешно сохранен!";
+
     private MenuConstants() {
     }
 }

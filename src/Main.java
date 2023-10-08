@@ -1,5 +1,4 @@
 import menu.Menu;
-
 import java.io.IOException;
 
 public class Main {

@@ -17,6 +17,7 @@ public class DecryptionByBruteForce {
 
     /**
      * The method that leads to decryption using BruteForce method^
+     *
      * @param sourceText instance of the class {@link SourceText}
      * @return the decrypted text by the BruteForce method.
      * @throws IOException from {@link SourceText}
@@ -35,7 +36,8 @@ public class DecryptionByBruteForce {
 
     /**
      * Метод, который анализирует текст на пунктуацию:
-     * @param  text the source text to be analyzed for punctuation rules
+     *
+     * @param text the source text to be analyzed for punctuation rules
      * @return String text or message "DECRYPTION_IS_FAILED" if analysis is failed.
      */
     private String textAnalysis(String text) {

@@ -12,7 +12,8 @@ public class Encryption {
     private int key;
 
     /**
-     *The constructor accepts the encryption key
+     * The constructor accepts the encryption key
+     *
      * @param key key for encryption
      */
     public Encryption(int key) {
@@ -21,14 +22,15 @@ public class Encryption {
 
     /**
      * The method that performs key encryption:
+     *
      * @param textForEncryption the text to be encrypted
      * @return encrypted text
      */
-    public String encryption(List<Character> textForEncryption)  {
+    public String encryption(List<Character> textForEncryption) {
         for (int i = 0; i < textForEncryption.size(); i++) {
             List<Character> alp = Arrays.asList(Constants.ENG_ALPHABET);
-            if (alp.contains(textForEncryption.get(i))) { //Если алфавит содержит эту букву из текста, то
-                int oldIndex = alp.indexOf(textForEncryption.get(i)); // oldIndex - индекс этого символа в алфавите
+            if (alp.contains(textForEncryption.get(i))) { //пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ
+                int oldIndex = alp.indexOf(textForEncryption.get(i)); // oldIndex - пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
                 if (oldIndex + this.key >= alp.size()) {
                     int newIndex = (this.key - (alp.size() - oldIndex)) % alp.size();
                     textForEncryption.set(i, alp.get(newIndex));
