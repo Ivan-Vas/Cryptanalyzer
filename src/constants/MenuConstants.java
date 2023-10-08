@@ -20,7 +20,7 @@ public class MenuConstants {
     public static final String DECRYPTION_MODE = DECRYPTION_BY_KEY + DECRYPTION_BY_CRYPTANALYSIS;
     public static final String CHOOSE_DECRYPTION_MODE = "\nВыберите режим расшифровки -> ";
     public static final String CHOOSE_CRYPTANALYSIS_MODE = "\nВыберите подход к криптоанализу -> ";
-    public static final String BRUTE_FORCE = "\n1.- Brute Force";
+    public static final String BRUTE_FORCE = "\n1.- Brute Force ";
     public static final String STATISTICAL_ANALYSIS = "\n2.- Статистический анализ";
     public static final String MENU_CRYPTANALYSIS_MODE = "\nПодходы к криптоанализу: " + BRUTE_FORCE + STATISTICAL_ANALYSIS;
     public static final String ENTER_ENCRYPTED_FILE_NAME = "Введите путь, куда сохранить зашифрованный файл -> ";

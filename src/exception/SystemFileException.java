@@ -1,7 +1,6 @@
 package exception;
 
 import java.io.IOException;
-
 /**
  * Signals that the file name is system file
  */

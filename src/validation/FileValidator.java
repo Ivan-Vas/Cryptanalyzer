@@ -2,7 +2,6 @@ package validation;
 
 import constants.ConstantsForValidation;
 import exception.IncorrectFileNameException;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;

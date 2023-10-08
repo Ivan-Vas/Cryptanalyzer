@@ -13,7 +13,6 @@ import java.io.IOException;
 import java.util.Scanner;
 
 import static constants.MenuConstants.*;
-
 public class Menu {
     InputValidator inputValidator = new InputValidator();
 

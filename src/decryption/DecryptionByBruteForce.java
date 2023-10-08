@@ -2,7 +2,6 @@ package decryption;
 
 import constants.Constants;
 import workingWithText.SourceText;
-
 import java.io.IOException;
 
 /**

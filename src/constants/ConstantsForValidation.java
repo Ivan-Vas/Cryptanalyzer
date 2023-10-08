@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ConstantsForValidation {
     /**
-     * Paths to system files and directories that cannot be overwritten
+     * Paths to system files and directories that cannot be overwritten.
      */
     public static final List<String> notValidFiles = List.of("C:\\Windows", "C:\\Windows.old ", "C:\\Boot",
             "C:\\$Recycle.Bin", "C:\\Program Files", "C:\\System Volume Information", "C:\\Documents and Settings",

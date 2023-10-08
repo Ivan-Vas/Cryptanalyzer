@@ -14,7 +14,6 @@ public class Constants {
                     '6', '7', '8', '9', '.',
                     ',', '«', '»', '"', '\'',
                     ':', '!', '?', ' '};
-
     private Constants() {
     }
 }
