@@ -1,7 +1,6 @@
 package constants;
 
 import java.util.List;
-
 public class ConstantsForValidation {
     /**
      * Paths to system files and directories that cannot be overwritten.

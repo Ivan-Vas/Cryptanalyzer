@@ -14,7 +14,6 @@ import static constants.MenuConstants.SUCCESSFUL_SAVE;
  */
 public class WriteСonvertedText {
     private FileValidator fileValidator = new FileValidator();
-
     /**
      * The method that writes text to a file
      *

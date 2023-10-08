@@ -1,5 +1,4 @@
 package menu;
-
 import decryption.Decryption;
 import decryption.DecryptionByBruteForce;
 import decryption.DecryptionByStatisticalAnalysis;

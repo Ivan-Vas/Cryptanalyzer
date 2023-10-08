@@ -4,7 +4,6 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import static constants.ConstantsForValidation.CHOICE_AGAIN;
 import static constants.ConstantsForValidation.INVALID_VALUE;
-
 /**
  * The class that validates input data
  */

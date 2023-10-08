@@ -1,5 +1,4 @@
 package constants;
-
 public class MenuConstants {
     public static final String MAIN_MENU = """
             \nМеню программы "ШИФР ЦЕЗАРЯ":

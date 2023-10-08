@@ -7,7 +7,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 import static constants.ConstantsForValidation.DIRECTORY_PATH_TO_FILES;
-
 /**
  * The class that checks files
  */
